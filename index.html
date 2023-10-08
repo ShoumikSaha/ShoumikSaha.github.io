@@ -403,6 +403,44 @@
           <div class="container-fluid">
             <h2 class="mb-5">Research</h2>
 
+              <div class="resume-item d-flex flex-column flex-md-row mb-4">
+	            <div class="resume-content mr-auto">
+	              	<h3 class="mb-0 text-primary row col-lg-8 col-md-8 col-sm-12">DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness</h3>
+	              	<div class="subheading mb-3">Collaborators: Wenxiao Wang, Yigitcan Kaya, Soheil Feizi, Tudor Dumitras
+	              	</div>
+	              	<div class="row mb-5">
+		            	<div class="col-lg-8 col-md-8 col-sm-12">
+				            <p class="justify">
+				        		Machine Learning (ML) models have been utilized for malware detection for over two decades. Consequently, this ignited an ongoing arms race between malware authors and antivirus systems,
+                                compelling researchers to propose defenses for malware-detection models against evasion attacks. However, most if not all existing defenses against evasion attacks suffer from sizable
+                                performance degradation and/or can defend against only specific attacks, which makes them less practical in real-world settings. In this work, we develop a certified defense, DRSM
+                                (De-Randomized Smoothed MalConv), by redesigning the de-randomized smoothing technique for the domain of malware detection. Specifically, we propose a window ablation scheme to provably
+                                limit the impact of adversarial bytes while maximally preserving local structures of the executables. After showing how DRSM is theoretically robust against attacks with contiguous adversarial bytes,
+                                we verify its performance and certified robustness experimentally, where we observe only marginal accuracy drops as the cost of robustness.
+                            </p>
+                            <p>
+                              To our knowledge, we are the first to offer certified robustness in the realm of static detection of malware executables. More surprisingly, through evaluating DRSM against 9
+                                empirical attacks of different types, we observe that the proposed defense is empirically robust to some extent against a diverse set of attacks, some of which even fall out of the scope of its original threat model.
+                                In addition, we collected 15.5K recent benign raw executables from diverse sources, which will be made public as a dataset called PACE (Publicly Accessible Collection(s) of Executables)
+                                to alleviate the scarcity of publicly available benign datasets for studying malware detection and provide future research with more representative data of the time.
+                            </p>
+		            		<em>Methods: FGSM (Fast Gradient Signed Method) Patch Attack, Universal Adversarial Patch (UAP), De-Randomized Smoothing</em>
+                    		<br>
+                    		<p> <strong>Current state: </strong>
+                          Under Review
+                            </p>
+                           <p>
+                            <a href="https://arxiv.org/abs/2303.13372" target="_blank">arXiv Version</a>
+                           </p>
+				        </div>
+			            <div class="col-lg-4 col-md-4 col-sm-12">
+			            	<img class="img-fluid" src="img/drsm_intro.jpg" >
+			            </div>
+
+          			</div>
+	            </div>
+          	</div>
+
             <div class="resume-item d-flex flex-column flex-md-row mb-4">
 	            <div class="resume-content mr-auto">
 	              	<h3 class="mb-0 text-primary row col-lg-8 col-md-8 col-sm-12">Adversarial Robustness of Learning-based Static Malware Classifiers</h3>
@@ -428,7 +466,7 @@
                           Ongoing
                             </p>
                            <p>
-                            <a href="https://arxiv.org/abs/2303.13372" target="_blank">arXiv Version</a>
+                            <a href="https://drive.google.com/file/d/1vKnbGqRFETuNQNDhg7kpv7zMhaU-6w_H/view?usp=sharing" target="_blank">arXiv Version</a>
                            </p>
 				        </div>
 			            <div class="col-lg-4 col-md-4 col-sm-12">
