@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: [[CV]](../assets/pdf/Shoumik_CV_2024_Oct.pdf). Google Scholar. LinkedIn. Live and let live.
+subtitle: <a href='#'>[CV]</a> Live and let live!
 
 profile:
   align: right
-  image: Shoumik_profile_pic2.jpg
+  image: Shoumik_profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>CS Ph.D. Student</p>
