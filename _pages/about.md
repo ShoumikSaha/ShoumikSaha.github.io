@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://shoumiksaha.github.io/assets/pdf/Shoumik_CV_2024_Oct.pdf'>[CV]</a>. <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ&hl=en'>[Google Scholar]</a>. Live and let live!
+subtitle: <a href='https://shoumiksaha.github.io/assets/pdf/Shoumik_CV_2024_Oct.pdf'>[CV]</a>. <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ&hl=en'>[Google Scholar]</a>. <a href='https://www.linkedin.com/in/shoumik-saha/'>[LinkedIn]</a>.<br>Live and let live!
 
 profile:
   align: right
@@ -18,16 +18,20 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 3rd year Computer Science Ph.D. student at the [University of Maryland - College Park](https://umd.edu/), advised by [Prof. Soheil Feizi](https://www.cs.umd.edu/~sfeizi/).
+I am a 3rd year Computer Science Ph.D. student at the [University of Maryland - College Park](https://umd.edu/), 
+where I am fortunate to be advised by [Prof. Soheil Feizi](https://www.cs.umd.edu/~sfeizi/).
 Last summer, I have worked as a Scientist Intern at Amazon AWS.
-While I started my research career focusing in **machine learning for security** by working 
-in malware detection, my interest gradually shifted to **security and reliability for machine learning**.
-These days, I am working on making genAI, especially LLM, robust and reliable.
-If you look into my [CV](../assets/pdf/Shoumik_CV_2024_Oct.pdf), you will notice that -- 
-I love to think and work from the both perspective, attack/defense, red-team/blue-team,
-whatever the way you want to define it. Sounds interesting? 
-Feel free to reach out to me about my research, or future collaboration.
+My research journey began with a focus on **machine learning for security**, 
+particularly in malware detection. Over time, my interests have evolved toward 
+**security and reliability in machine learning**. 
+These days, I’m dedicated to enhancing the robustness and reliability of generative AI, 
+especially large language models (LLMs).
 
-Before joining the Ph.D. program, I completed my B.Sc. from Bangladesh University of Engineering and Technology (BUET).
-Then I worked as a full-time lecturer at the United International University, and 
-part-time research assistant at the research lab of BUET.
+If you check out my [CV](../assets/pdf/Shoumik_CV_2024_Oct.pdf), you'll see a consistent theme: 
+I enjoy exploring challenges from both sides of the coin—attack and defense, red team and blue team, 
+or however you’d like to frame it. Sounds interesting? 
+Feel free to reach out to discuss my research or potential collaborations!
+
+Before joining the Ph.D. program, I earned my B.Sc. from Bangladesh University of Engineering and Technology (BUET).
+I then gained valuable experience as a full-time lecturer at United International University 
+and a part-time research assistant at BUET's research lab.
