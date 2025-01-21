@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Live and let live.
+subtitle: [[CV]](../assets/pdf/Shoumik_CV_2024_Oct.pdf). Google Scholar. LinkedIn. Live and let live.
 
 profile:
   align: right
