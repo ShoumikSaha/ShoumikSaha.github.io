@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>CV</a>. <a href='#'>Google Scholar</a>. <a href='#'>LinkedIn</a>. Live and let live!
+subtitle: Live and let live!
 
 profile:
   align: right
