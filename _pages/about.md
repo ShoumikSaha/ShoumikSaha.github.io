@@ -29,6 +29,6 @@ I love to think and work from the both perspective, attack/defense, red-team/blu
 whatever the way you want to define it. Sounds interesting? 
 Feel free to reach out to me about my research, or future collaboration.
 
-Before joining the Ph.D. program, I completed my B.Sc. from Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/).
+Before joining the Ph.D. program, I completed my B.Sc. from Bangladesh University of Engineering and Technology (BUET).
 Then I worked as a full-time lecturer at the United International University, and 
 part-time research assistant at the research lab of BUET.
