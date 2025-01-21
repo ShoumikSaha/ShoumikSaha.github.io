@@ -16,30 +16,6 @@
     abbr={NEURIPS}
 }
 
-@misc{sadasivan2024fastadversarialattackslanguage,
-      title={Fast Adversarial Attacks on Language Models In One GPU Minute},
-      author={Vinu Sankar, Sadasivan and Shoumik, Saha and Gaurang, Sriramanan and Priyatham, Kattakinda and Atoosa, Chegini and Soheil, Feizi},
-      year={2024},
-      abstract={In this paper, we introduce a novel class of fast, beam search-based adversarial attack (BEAST) for Language Models (LMs). BEAST employs interpretable parameters, enabling attackers to balance between attack speed, success rate, and the readability of adversarial prompts. The computational efficiency of BEAST facilitates us to investigate its applications on LMs for jailbreaking, eliciting hallucinations, and privacy attacks. Our gradient-free targeted attack can jailbreak aligned LMs with high attack success rates within one minute. For instance, BEAST can jailbreak Vicuna-7B-v1.5 under one minute with a success rate of 89% when compared to a gradient-based baseline that takes over an hour to achieve 70% success rate using a single Nvidia RTX A6000 48GB GPU. Additionally, we discover a unique outcome wherein our untargeted attack induces hallucinations in LM chatbots. Through human evaluations, we find that our untargeted attack causes Vicuna-7B-v1.5 to produce ~15% more incorrect outputs when compared to LM outputs in the absence of our attack. We also learn that 22% of the time, BEAST causes Vicuna to generate outputs that are not relevant to the original prompt. Further, we use BEAST to generate adversarial prompts in a few seconds that can boost the performance of existing membership inference attacks for LMs. We believe that our fast attack, BEAST, has the potential to accelerate research in LM security and privacy.}
-      arxiv={2402.15570},
-      url={https://arxiv.org/abs/2402.15570},
-      bibtex_show={true},
-      html={https://arxiv.org/abs/2402.15570},
-      abbr={ICML}
-}
-
-@misc{saha2023drsmderandomizedsmoothingmalware,
-      title={DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness},
-      author={Shoumik, Saha and Wenxiao, Wang and Yigitcan, Kaya and Soheil, Feizi and Tudor, Dumitras},
-      year={2023},
-      abstract={Machine Learning (ML) models have been utilized for malware detection for over two decades. Consequently, this ignited an ongoing arms race between malware authors and antivirus systems, compelling researchers to propose defenses for malware-detection models against evasion attacks. However, most if not all existing defenses against evasion attacks suffer from sizable performance degradation and/or can defend against only specific attacks, which makes them less practical in real-world settings. In this work, we develop a certified defense, DRSM (De-Randomized Smoothed MalConv), by redesigning the de-randomized smoothing technique for the domain of malware detection. Specifically, we propose a window ablation scheme to provably limit the impact of adversarial bytes while maximally preserving local structures of the executables. After showing how DRSM is theoretically robust against attacks with contiguous adversarial bytes, we verify its performance and certified robustness experimentally, where we observe only marginal accuracy drops as the cost of robustness. To our knowledge, we are the first to offer certified robustness in the realm of static detection of malware executables. More surprisingly, through evaluating DRSM against 9 empirical attacks of different types, we observe that the proposed defense is empirically robust to some extent against a diverse set of attacks, some of which even fall out of the scope of its original threat model. In addition, we collected 15.5K recent benign raw executables from diverse sources, which will be made public as a dataset called PACE (Publicly Accessible Collection(s) of Executables) to alleviate the scarcity of publicly available benign datasets for studying malware detection and provide future research with more representative data of the time.}
-      arxiv={2303.13372},
-      url={https://arxiv.org/abs/2303.13372},
-      bibtex_show={true},
-      html={https://arxiv.org/abs/2303.13372},
-      abbr={ICLR}
-}
-
 
 @book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
