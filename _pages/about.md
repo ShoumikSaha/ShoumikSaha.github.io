@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Live and let live!
+subtitle: Live and let live.
 
 profile:
   align: right
@@ -18,8 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 3rd year Computer Science Ph.D. student at the [University of Maryland - College Park](https://umd.edu/), 
-advised by [Prof. Soheil Feizi](https://www.cs.umd.edu/~sfeizi/).
+I am a 3rd year Computer Science Ph.D. student at the [University of Maryland - College Park](https://umd.edu/), advised by [Prof. Soheil Feizi](https://www.cs.umd.edu/~sfeizi/).
 Last summer, I have worked as a Scientist Intern at Amazon AWS.
 While I started my research career focusing in **machine learning for security** by working 
 in malware detection, my interest gradually shifted to **security and reliability for machine learning**.
