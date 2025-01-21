@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: [[CV]](../assets/pdf/Shoumik_CV_2024_Oct.pdf). <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ&hl=en'>[Google Scholar]</a>. <a href='https://www.linkedin.com/in/shoumik-saha/'>[LinkedIn]</a>. Live and let live!
+subtitle: <a href='https://shoumiksaha.github.io/assets/pdf/Shoumik_CV_2024_Oct.pdf'>[CV]</a>. <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ&hl=en'>[Google Scholar]</a>. <a href='https://www.linkedin.com/in/shoumik-saha/'>[LinkedIn]</a>. Live and let live!
 
 profile:
   align: right
