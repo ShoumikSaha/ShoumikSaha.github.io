@@ -11,9 +11,10 @@
     year={2024},
     abstract={While Large Language Models (LLMs) have become immensely popular due to their outstanding performance on a broad range of tasks, these models are prone to producing hallucinations— outputs that are fallacious or fabricated yet often appear plausible or tenable at a glance. In this paper, we conduct a comprehensive investigation into the nature of hallucinations within LLMs and furthermore explore effective techniques for detecting such inaccuracies in various real-world settings. Prior approaches to detect hallucinations in LLM outputs, such as consistency checks or retrieval-based methods, typically assume access to multiple model responses or large databases. These techniques, however, tend to be computationally expensive in practice, thereby limiting their applicability to real-time analysis. In contrast, in this work, we seek to identify hallucinations within a single response in both white-box and black-box settings by analyzing the internal hidden states, attention maps, and output prediction probabilities of an auxiliary LLM. In addition, we also study hallucination detection in scenarios where ground-truth references are also available, such as in the setting of Retrieval-Augmented Generation (RAG). We demonstrate that the proposed detection methods are extremely compute-efficient, with speedups of up to 45x and 450x over other baselines, while achieving significant improvements in detection performance over diverse datasets.},
     url={https://openreview.net/forum?id=LYx4w3CAgy},
-    bibtex_show={true},
     html={https://openreview.net/forum?id=LYx4w3CAgy},
+    bibtex_show={true},
     abbr={NEURIPS},
+    code={https://github.com/GaurangSriramanan/LLM_Check_Hallucination_Detection},
     selected={true}
 }
 
@@ -27,7 +28,9 @@
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2402.15570},
       html={https://arxiv.org/abs/2402.15570},
+      bibtex_show={true},
       abbr={ICML},
+      code={https://github.com/vinusankars/BEAST},
       selected={true}
 }
 
@@ -41,9 +44,47 @@
       primaryClass={cs.CR},
       url={https://arxiv.org/abs/2303.13372},
       html={https://arxiv.org/abs/2303.13372},
+      bibtex_show={true},
       abbr={ICLR},
+      code={https://github.com/ShoumikSaha/DRSM},
       selected={true}
 }
+
+@article{SAHA2024103714,
+    title = {MAlign: Explainable static raw-byte based malware family classification using sequence alignment},
+    journal = {Computers & Security},
+    volume = {139},
+    pages = {103714},
+    year = {2024},
+    issn = {0167-4048},
+    doi = {https://doi.org/10.1016/j.cose.2024.103714},
+    url = {https://www.sciencedirect.com/science/article/pii/S0167404824000154},
+    author = {Shoumik Saha and Sadia Afroz and Atif Hasan Rahman},
+    keywords = {Malware, Sequence alignment, Explainability, Machine learning, Adversarial},
+    abstract = {For a long time, malware classification and analysis have been an arms-race between antivirus systems and malware authors. Though static analysis is vulnerable to evasion techniques, it is still popular as the first line of defense in antivirus systems. But most of the static analyzers failed to gain the trust of practitioners due to their black-box nature. We propose MAlign, a novel static malware family classification approach inspired by genome sequence alignment that can not only classify malware families but can also provide explanations for its decision. MAlign encodes raw bytes using nucleotides and adopts genome sequence alignment approaches to create a signature of a malware family based on the conserved code segments in that family, without any human labor or expertise. We evaluate MAlign on two malware datasets, and it outperforms other state-of-the-art machine learning-based malware classifiers (by 4.49%∼0.07%), especially on small datasets (by 19.48%∼1.2%). Furthermore, we explain the generated signatures by MAlign on different malware families illustrating the kinds of insights it can provide to analysts, and show its efficacy as an analysis tool. Additionally, we evaluate its theoretical and empirical robustness against some common attacks. In this paper, we approach static malware analysis from a unique perspective, aiming to strike a delicate balance among performance, interpretability, and robustness.},
+    abbr={Computers & Security},
+    html={https://www.sciencedirect.com/science/article/pii/S0167404824000154},
+    bibtex_show={true},
+    code={https://github.com/ShoumikSaha/Malign},
+    selected={true}
+}
+
+@misc{kaya2024demystifyingbehaviorbasedmalwaredetection,
+      title={Demystifying Behavior-Based Malware Detection at Endpoints},
+      author={Yigitcan Kaya and Yizheng Chen and Shoumik Saha and Fabio Pierazzi and Lorenzo Cavallaro and David Wagner and Tudor Dumitras},
+      year={2024},
+      abstract={Machine learning is widely used for malware detection in practice. Prior behavior-based detectors most commonly rely on traces of programs executed in controlled sandboxes. However, sandbox traces are unavailable to the last line of defense offered by security vendors: malware detection at endpoints. A detector at endpoints consumes the traces of programs running on real-world hosts, as sandbox analysis might introduce intolerable delays. Despite their success in the sandboxes, research hints at potential challenges for ML methods at endpoints, e.g., highly variable malware behaviors. Nonetheless, the impact of these challenges on existing approaches and how their excellent sandbox performance translates to the endpoint scenario remain unquantified. We present the first measurement study of the performance of ML-based malware detectors at real-world endpoints. Leveraging a dataset of sandbox traces and a dataset of in-the-wild program traces; we evaluate two scenarios where the endpoint detector was trained on (i) sandbox traces (convenient and accessible); and (ii) endpoint traces (less accessible due to needing to collect telemetry data). This allows us to identify a wide gap between prior methods' sandbox-based detection performance--over 90%--and endpoint performances--below 20% and 50% in (i) and (ii), respectively. We pinpoint and characterize the challenges contributing to this gap, such as label noise, behavior variability, or sandbox evasion. To close this gap, we propose that yield a relative improvement of 5-30% over the baselines. Our evidence suggests that applying detectors trained on sandbox data to endpoint detection -- scenario (i) -- is challenging. The most promising direction is training detectors on endpoint data -- scenario (ii) -- which marks a departure from widespread practice. We implement a leaderboard for realistic detector evaluations to promote research.},
+      eprint={2405.06124},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2405.06124},
+      html={https://arxiv.org/abs/2405.06124},
+      bibtex_show={true},
+      abbr={arxiv},
+      selected={true}
+}
+
+
 
 
 
