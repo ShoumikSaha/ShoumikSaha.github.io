@@ -6,7 +6,7 @@ subtitle: Live and let live!
 
 profile:
   align: right
-  image: Shoumik_profile_pic.jpg
+  image: Shoumik_profile_pic2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>CS Ph.D. Student</p>
