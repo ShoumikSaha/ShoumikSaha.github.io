@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper (co-authored) accepted to SaTML!
+Paper (co-authored) accepted to SaTML 2025!
