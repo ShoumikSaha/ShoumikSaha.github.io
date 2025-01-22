@@ -100,6 +100,27 @@
   ],
   "publications": [
     {
+      "name": "Demystifying Behavior-Based Malware Detection at Endpoints",
+      "publisher": "arXiv",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2405.06124",
+      "summary": "We presented a quantitative study of how sandbox traces differ from real-world ones, and how it impacts machine learning models. We identified this distribution shift and proposed a solution for ML models that boosted the TPR from 14% to 20%@1%FPR."
+    },
+    {
+      "name": "MAlign: Explainable Static Raw-byte Based Malware Family Classification using Sequence Alignment",
+      "publisher": "Computers & Security Journal",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2111.14185",
+      "summary": "We proposed a novel approach, namely MAlign, incorporating concepts from Bioinformatics into Malware Security. We developed a static raw-byte-based malware family classifier with better accuracy and robustness. MAlign also provides explainability by relocating the code blocks responsible for malicious attacks."
+    },
+    {
+      "name": "DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness",
+      "publisher": "ICLR",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2303.13372",
+      "summary": "We are the first to propose certified robustness in the domain of static malware detection from executables. We demonstrated both theoretical and empirical robustness of our proposed DRSM framework. Besides, we published a new benign dataset, named PACE."
+    },
+    {
       "name": "LLM-Check: Investigating Detection of Hallucinations in Large Language Models",
       "publisher": "NEURIPS",
       "releaseDate": "2024",
@@ -112,27 +133,6 @@
       "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2402.15570",
       "summary": "We proposed a novel approach in adversarial attack on LLMs, namely BEAST, that can jailbreak, cause hallucination, and membership inference attacks. Our approach can find jailbreaking prompts within one minute under a resource-constrained setting."
-    },
-    {
-      "name": "DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness",
-      "publisher": "ICLR",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2303.13372",
-      "summary": "We are the first to propose certified robustness in the domain of static malware detection from executables. We demonstrated both theoretical and empirical robustness of our proposed DRSM framework. Besides, we published a new benign dataset, named PACE."
-    },
-    {
-      "name": "MAlign: Explainable Static Raw-byte Based Malware Family Classification using Sequence Alignment",
-      "publisher": "Computers & Security Journal",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2111.14185",
-      "summary": "We proposed a novel approach, namely MAlign, incorporating concepts from Bioinformatics into Malware Security. We developed a static raw-byte-based malware family classifier with better accuracy and robustness. MAlign also provides explainability by relocating the code blocks responsible for malicious attacks."
-    },
-    {
-      "name": "Demystifying Behavior-Based Malware Detection at Endpoints",
-      "publisher": "arXiv",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2405.06124",
-      "summary": "We presented a quantitative study of how sandbox traces differ from real-world ones, and how it impacts machine learning models. We identified this distribution shift and proposed a solution for ML models that boosted the TPR from 14% to 20%@1%FPR."
     }
   ],
   "awards": [
@@ -160,6 +160,15 @@
       "endDate": "2023-12",
       "summary": "",
       "highlights": ["DATA 200"]
+    },
+    {
+      "name": "United International University",
+      "position": "Lecturer",
+      "url": "",
+      "startDate": "2021-07",
+      "endDate": "2022-07",
+      "summary": "",
+      "highlights": ["Discrete Mathematics", "Data Structures & Algorithms", "Operating Systems"]
     }
   ],
   "skills": [
@@ -201,18 +210,6 @@
         "Quantum Communication",
         "Quantum Teleportation"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ]
 }
