@@ -27,6 +27,26 @@
       }
     ]
   },
+  "interests": [
+    {
+      "name": "Machine Learning",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Safety & Reliability of AI",
+        "LLM Alignment",
+        "Jailbreaking & Defense",
+        "Hallucination"
+      ]
+    },
+    {
+      "name": "Computer Security",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Adversarial Attacks & Defenses",
+        "Malware"
+      ]
+    }
+  ],
   "work": [
     {
       "name": "University of Maryland - College Park",
@@ -213,21 +233,6 @@
       "icon": ""
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
   "languages": [
     {
       "language": "English",
@@ -238,20 +243,6 @@
       "language": "Bengali",
       "fluency": "Native speaker",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
     }
   ]
 }
