@@ -23,14 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "news-fall-2024-completed-all-the-coursework-of-ph-d",
+        },{id: "news-fall-2024-completed-all-the-coursework-of-ph-d",
           title: 'Fall 2024: Completed all the coursework of Ph.D.',
           description: "",
           section: "News",},{id: "news-paper-co-authored-accepted-to-satml-2025",
