@@ -171,6 +171,13 @@
       "highlights": ["Discrete Mathematics", "Data Structures & Algorithms", "Operating Systems"]
     }
   ],
+  "relevant coursework": [
+    {
+      "language": "Foundations of Deep Learning",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
   "skills": [
     {
       "name": "Physics",
