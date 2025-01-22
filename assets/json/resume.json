@@ -173,8 +173,43 @@
   ],
   "relevant coursework": [
     {
-      "language": "Foundations of Deep Learning",
-      "fluency": "Fluent",
+      "language": "Foundation of Deep Learning",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Algorithms in Machine Learning",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Large Language Model: Security & Privacy",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Advanced Numerical Optimization",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Computer & Network Security",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Paradigms of Machine Learning",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "AI/ML at Scale",
+      "fluency": "",
+      "icon": ""
+    },
+    {
+      "language": "Natural Language Processing (Advanced)",
+      "fluency": "",
       "icon": ""
     }
   ],
