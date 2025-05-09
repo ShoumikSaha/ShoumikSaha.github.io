@@ -9,10 +9,10 @@
   color: "#009f36"
 
 "NEURIPS":
-  color: "#00369f"
+  color: "#FF842D"
 
 "ICML":
-  color: "#00369f"
+  color: "#FF842D"
 
 "ICLR":
   color: "#FF842D"
@@ -20,8 +20,10 @@
 "Computers & Security":
   color: "#009f36"
 
-"arxiv":
-  color: "#972b14"
-
 "IEEE SaTML":
   color: "#009f36"
+
+"arxiv":
+  color: "#a6673a"
+
+
