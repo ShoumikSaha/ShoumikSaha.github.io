@@ -121,8 +121,8 @@
   "publications": [
     {
       "name": "Demystifying Behavior-Based Malware Detection at Endpoints",
-      "publisher": "arXiv",
-      "releaseDate": "2024",
+      "publisher": "SaTML",
+      "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2405.06124",
       "summary": "We presented a quantitative study of how sandbox traces differ from real-world ones, and how it impacts machine learning models. We identified this distribution shift and proposed a solution for ML models that boosted the TPR from 14% to 20%@1%FPR."
     },
@@ -153,6 +153,13 @@
       "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2402.15570",
       "summary": "We proposed a novel approach in adversarial attack on LLMs, namely BEAST, that can jailbreak, cause hallucination, and membership inference attacks. Our approach can find jailbreaking prompts within one minute under a resource-constrained setting."
+    },
+    {
+      "name": "Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing",
+      "publisher": "arXiv",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2502.15666",
+      "summary": "We evaluated twelve state-of-the-art AI-text detectors using our created APT-Eval dataset of 14.7K human-written texts refined to varying degrees with AI tools. We found that detectors often classify even minimally polished text as AI-generated and struggle to distinguish levels of AI involvement."
     }
   ],
   "awards": [
