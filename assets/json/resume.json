@@ -120,10 +120,10 @@
   ],
   "publications": [
     {
-      "name": "Demystifying Behavior-Based Malware Detection at Endpoints",
-      "publisher": "SaTML",
+      "name": "ML-Based Behavioral Malware Detection Is Far From a Solved Problem",
+      "publisher": "IEEE SaTML",
       "releaseDate": "2025",
-      "url": "https://arxiv.org/pdf/2405.06124",
+      "url": "https://arxiv.org/abs/2405.06124",
       "summary": "We presented a quantitative study of how sandbox traces differ from real-world ones, and how it impacts machine learning models. We identified this distribution shift and proposed a solution for ML models that boosted the TPR from 14% to 20%@1%FPR."
     },
     {

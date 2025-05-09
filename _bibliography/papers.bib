@@ -88,22 +88,6 @@
     preview={malign_preview2.png}
 }
 
-%@misc{kaya2024demystifyingbehaviorbasedmalwaredetection,
-%      title={Demystifying Behavior-Based Malware Detection at Endpoints},
-%      author={Yigitcan Kaya and Yizheng Chen and Shoumik Saha and Fabio Pierazzi and Lorenzo Cavallaro and David Wagner and Tudor Dumitras},
-%      year={2024},
-%      abstract={Machine learning is widely used for malware detection in practice. Prior behavior-based detectors most commonly rely on traces of programs executed in controlled sandboxes. However, sandbox traces are unavailable to the last line of defense offered by security vendors: malware detection at endpoints. A detector at endpoints consumes the traces of programs running on real-world hosts, as sandbox analysis might introduce intolerable delays. Despite their success in the sandboxes, research hints at potential challenges for ML methods at endpoints, e.g., highly variable malware behaviors. Nonetheless, the impact of these challenges on existing approaches and how their excellent sandbox performance translates to the endpoint scenario remain unquantified. We present the first measurement study of the performance of ML-based malware detectors at real-world endpoints. Leveraging a dataset of sandbox traces and a dataset of in-the-wild program traces; we evaluate two scenarios where the endpoint detector was trained on (i) sandbox traces (convenient and accessible); and (ii) endpoint traces (less accessible due to needing to collect telemetry data). This allows us to identify a wide gap between prior methods' sandbox-based detection performance--over 90%--and endpoint performances--below 20% and 50% in (i) and (ii), respectively. We pinpoint and characterize the challenges contributing to this gap, such as label noise, behavior variability, or sandbox evasion. To close this gap, we propose that yield a relative improvement of 5-30% over the baselines. Our evidence suggests that applying detectors trained on sandbox data to endpoint detection -- scenario (i) -- is challenging. The most promising direction is training detectors on endpoint data -- scenario (ii) -- which marks a departure from widespread practice. We implement a leaderboard for realistic detector evaluations to promote research.},
-%      eprint={2405.06124},
-%      archivePrefix={arXiv},
-%      primaryClass={cs.CR},
-%      url={https://arxiv.org/abs/2405.06124},
-%      html={https://arxiv.org/abs/2405.06124},
-%      bibtex_show={true},
-%      abbr={arxiv},
-%      selected={true},
-%      preview={ml_malware_preview.png}
-%}
-
 @misc{kaya2025mlbasedbehavioralmalwaredetection,
       title={ML-Based Behavioral Malware Detection Is Far From a Solved Problem},
       author={Yigitcan Kaya and Yizheng Chen and Marcus Botacin and Shoumik Saha and Fabio Pierazzi and Lorenzo Cavallaro and David Wagner and Tudor Dumitras},
