@@ -29,6 +29,12 @@ ninja.data = [{
           section: "News",},{id: "news-paper-co-authored-accepted-to-satml-2025",
           title: 'Paper (co-authored) accepted to SaTML 2025!',
           description: "",
+          section: "News",},{id: "news-paper-on-ai-text-detection-accepted-to-acl-2025",
+          title: 'Paper on AI-text Detection accepted to ACL 2025!',
+          description: "",
+          section: "News",},{id: "news-research-got-featured-in-the-new-york-times",
+          title: 'Research got featured in The New York Times!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
