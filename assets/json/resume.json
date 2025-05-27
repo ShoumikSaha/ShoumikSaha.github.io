@@ -156,10 +156,10 @@
     },
     {
       "name": "Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing",
-      "publisher": "arXiv",
+      "publisher": "ACL",
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2502.15666",
-      "summary": "We evaluated twelve state-of-the-art AI-text detectors using our created APT-Eval dataset of 14.7K human-written texts refined to varying degrees with AI tools. We found that detectors often classify even minimally polished text as AI-generated and struggle to distinguish levels of AI involvement."
+      "summary": "We evaluated twelve state-of-the-art AI-text detectors using our created APT-Eval dataset of 15K human-written texts refined to varying degrees with AI tools. We found that detectors often classify even minimally polished text as AI-generated and struggle to distinguish levels of AI involvement."
     }
   ],
   "awards": [
