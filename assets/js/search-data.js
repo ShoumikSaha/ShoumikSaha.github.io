@@ -35,6 +35,9 @@ ninja.data = [{
           section: "News",},{id: "news-research-got-featured-in-the-new-york-times",
           title: 'Research got featured in The New York Times!',
           description: "",
+          section: "News",},{id: "news-joined-amazon-aws-as-an-applied-scientist-intern",
+          title: 'Joined Amazon AWS as an Applied Scientist Intern',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
