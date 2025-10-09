@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://shoumiksaha.github.io/assets/pdf/Shoumik_CV_2025_July.pdf'>[CV]</a>. <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ'>[Google Scholar]</a>. <a href='https://www.linkedin.com/in/shoumik-saha/'>[LinkedIn]</a>.<br>Live and let live!
+subtitle: <a href='https://shoumiksaha.github.io/assets/pdf/Shoumik_CV_2025.pdf'>[CV]</a>. <a href='https://scholar.google.com/citations?user=41YhHwkAAAAJ'>[Google Scholar]</a>. <a href='https://www.linkedin.com/in/shoumik-saha/'>[LinkedIn]</a>.<br>Live and let live!
 
 profile:
   align: right
@@ -27,7 +27,7 @@ particularly in malware detection. Over time, my interests have evolved toward
 These days, I’m dedicated to enhancing the robustness and reliability of generative AI, 
 especially large language models (LLMs).
 
-If you check out my [CV](../assets/pdf/Shoumik_CV_2024_Oct.pdf), you'll see a consistent theme: 
+If you check out my [CV](../assets/pdf/Shoumik_CV_2025.pdf), you'll see a consistent theme: 
 I enjoy exploring challenges from both sides of the coin—attack and defense, red team and blue team, 
 or however you’d like to frame it. Sounds interesting? 
 Feel free to reach out to discuss my research or potential collaborations!

@@ -4,10 +4,20 @@
 @string{aps = {American Physical Society,}}
 
 
+@article{saha2025breaking,
+      title={Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks},
+      author={Saha, Shoumik and Chen, Jifan and Mayers, Sam and Gouda, Sanjay Krishna and Wang, Zijian and Kumar, Varun},
+      journal={arXiv preprint arXiv:2510.01359},
+      year={2025},
+      abstract={Code-capable large language model (LLM) agents are increasingly embedded into software engineering workflows where they can read, write, and execute code, raising the stakes of safety-bypass ("jailbreak") attacks beyond text-only settings. Prior evaluations emphasize refusal or harmful-text detection, leaving open whether agents actually compile and run malicious programs. We present JAWS-BENCH (Jailbreaks Across WorkSpaces), a benchmark spanning three escalating workspace regimes that mirror attacker capability: empty (JAWS-0), single-file (JAWS-1), and multi-file (JAWS-M). We pair this with a hierarchical, executable-aware Judge Framework that tests (i) compliance, (ii) attack success, (iii) syntactic correctness, and (iv) runtime executability, moving beyond refusal to measure deployable harm. Using seven LLMs from five families as backends, we find that under prompt-only conditions in JAWS-0, code agents accept 61% of attacks on average; 58% are harmful, 52% parse, and 27% run end-to-end. Moving to single-file regime in JAWS-1 drives compliance to ~ 100% for capable models and yields a mean ASR (Attack Success Rate) ~ 71%; the multi-file regime (JAWS-M) raises mean ASR to ~ 75%, with 32% instantly deployable attack code. Across models, wrapping an LLM in an agent substantially increases vulnerability -- ASR raises by 1.6x -- because initial refusals are frequently overturned during later planning/tool-use steps. Category-level analyses identify which attack classes are most vulnerable and most readily deployable, while others exhibit large execution gaps. These findings motivate execution-aware defenses, code-contextual safety filters, and mechanisms that preserve refusal decisions throughout the agent's multi-step reasoning and tool use.},
+      abbr={arxiv},
+      selected={true},
+}
+
 @article{saha2025almost,
       title={Almost AI, Almost Human: The Challenge of Detecting AI-Polished Writing},
       author={Saha, Shoumik and Feizi, Soheil},
-      journal={arXiv preprint arXiv:2502.15666},
+      journal={ACL (Association for Computational Linguistics)},
       year={2025},
       abstract={The growing use of large language models (LLMs) for text generation has led to widespread concerns about AI-generated content detection. However, an overlooked challenge is AI-polished text, where human-written content undergoes subtle refinements using AI tools. This raises a critical question: should minimally polished text be classified as AI-generated? Such classification can lead to false plagiarism accusations and misleading claims about AI prevalence in online content. In this study, we systematically evaluate twelve state-of-the-art AI-text detectors using our AI-Polished-Text Evaluation (APT-Eval) dataset, which contains 15K samples refined at varying AI-involvement levels. Our findings reveal that detectors frequently flag even minimally polished text as AI-generated, struggle to differentiate between degrees of AI involvement, and exhibit biases against older and smaller models. These limitations highlight the urgent need for more nuanced detection methodologies.},
       url={https://arxiv.org/abs/2502.15666},
@@ -22,22 +32,34 @@
 @article{cheng2025adversarial,
       title={Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text},
       author={Cheng, Yize and Sadasivan, Vinu Sankar and Saberi, Mehrdad and Saha, Shoumik and Feizi, Soheil},
-      journal={arXiv preprint arXiv:2506.07001},
+      journal={NeurIPS (Conference on Neural Information Processing Systems)},
       year={2025},
       abstract={The increasing capabilities of Large Language Models (LLMs) have raised concerns about their misuse in AI-generated plagiarism and social engineering. While various AI-generated text detectors have been proposed to mitigate these risks, many remain vulnerable to simple evasion techniques such as paraphrasing. However, recent detectors have shown greater robustness against such basic attacks. In this work, we introduce Adversarial Paraphrasing, a training-free attack framework that universally humanizes any AI-generated text to evade detection more effectively. Our approach leverages an off-the-shelf instruction-following LLM to paraphrase AI-generated content under the guidance of an AI text detector, producing adversarial examples that are specifically optimized to bypass detection. Extensive experiments show that our attack is both broadly effective and highly transferable across several detection systems. For instance, compared to simple paraphrasing attack—which, ironically, increases the true positive at 1% false positive (T@1%F) by 8.57% on RADAR and 15.03% on Fast-DetectGPT—adversarial paraphrasing, guided by OpenAI-RoBERTa-Large, reduces T@1%F by 64.49% on RADAR and a striking 98.96% on Fast-DetectGPT. Across a diverse set of detectors—including neural network-based, watermark-based, and zero-shot approaches—our attack achieves an average T@1%F reduction of 87.88% under the guidance of OpenAI-RoBERTa-Large. We also analyze the tradeoff between text quality and attack success to find that our method can significantly reduce detection rates, with mostly a slight degradation in text quality. Our adversarial setup highlights the need for more robust and resilient detection strategies in the light of increasingly sophisticated evasion techniques.},
       url={https://arxiv.org/abs/2506.07001},
       html={https://arxiv.org/abs/2506.07001},
       bibtex_show={true},
-      abbr={arxiv},
+      abbr={NEURIPS},
       selected={true},
       code={https://github.com/chengez/Adversarial-Paraphrasing}
+}
+
+@article{zinatprocvqa,
+        title={ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision-Language Model Performance},
+        author={Zinat, Kazi Tasnim and Abrar, Saad Mohammad and Saha, Shoumik and Duppala, Sharmila and Sakhamuri, Saimadhav Naga and Liu, Zhicheng},
+        journal={EMNLP (Empirical Methods in Natural Language Processing)},
+        year={2025},
+        abstract={Vision-Language Models have shown both impressive capabilities and notable failures in data visualization understanding tasks, but we have limited understanding on how specific properties within a visualization type affect model performance. We present ProcVQA, a benchmark designed to analyze how VLM performance can be affected by structure type and structural density of visualizations depicting frequent patterns mined from sequence data. ProcVQA consists of mined process visualizations spanning three structure types (linear sequences, tree, graph) with varying levels of structural density (quantified using the number of nodes and edges), with expert-validated QA pairs on these visualizations. We evaluate 21 proprietary and open-source models on the dataset on two major tasks: visual data extraction (VDE) and visual question answering (VQA)(with four categories of questions). Our analysis reveals three key findings. First, models exhibit steep performance drops on multi-hop reasoning, with question type and structure type impacting the degradation. Second, structural density strongly affects VDE performance: hallucinations and extraction errors increase with edge density, even in frontier models. Third, extraction accuracy does not necessarily translate into strong reasoning ability. By isolating structural factors through controlled visualization generation, ProcVQA enables precise identification of VLM limitations.},
+        url={https://mail.hdi.cs.umd.edu/papers/ProcVQA_EMNLP25.pdf},
+        bibtex_show={true},
+        abbr={EMNLP},
+        selected={true},
 }
 
 @inproceedings{
     sriramanan2024llmcheck,
     title={{LLM}-Check: Investigating Detection of Hallucinations in Large Language Models},
     author={Gaurang Sriramanan and Siddhant Bharti and Vinu Sankar Sadasivan and Shoumik Saha and Priyatham Kattakinda and Soheil Feizi},
-    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    booktitle={NeurIPS (Conference on Neural Information Processing Systems)},
     year={2024},
     abstract={While Large Language Models (LLMs) have become immensely popular due to their outstanding performance on a broad range of tasks, these models are prone to producing hallucinations— outputs that are fallacious or fabricated yet often appear plausible or tenable at a glance. In this paper, we conduct a comprehensive investigation into the nature of hallucinations within LLMs and furthermore explore effective techniques for detecting such inaccuracies in various real-world settings. Prior approaches to detect hallucinations in LLM outputs, such as consistency checks or retrieval-based methods, typically assume access to multiple model responses or large databases. These techniques, however, tend to be computationally expensive in practice, thereby limiting their applicability to real-time analysis. In contrast, in this work, we seek to identify hallucinations within a single response in both white-box and black-box settings by analyzing the internal hidden states, attention maps, and output prediction probabilities of an auxiliary LLM. In addition, we also study hallucination detection in scenarios where ground-truth references are also available, such as in the setting of Retrieval-Augmented Generation (RAG). We demonstrate that the proposed detection methods are extremely compute-efficient, with speedups of up to 45x and 450x over other baselines, while achieving significant improvements in detection performance over diverse datasets.},
     url={https://openreview.net/forum?id=LYx4w3CAgy},
@@ -51,6 +73,7 @@
 @misc{sadasivan2024fastadversarialattackslanguage,
       title={Fast Adversarial Attacks on Language Models In One GPU Minute},
       author={Vinu Sankar Sadasivan and Shoumik Saha and Gaurang Sriramanan and Priyatham Kattakinda and Atoosa Chegini and Soheil Feizi},
+      journal={ICML (International Conference on Machine Learning)},
       year={2024},
       abstract={In this paper, we introduce a novel class of fast, beam search-based adversarial attack (BEAST) for Language Models (LMs). BEAST employs interpretable parameters, enabling attackers to balance between attack speed, success rate, and the readability of adversarial prompts. The computational efficiency of BEAST facilitates us to investigate its applications on LMs for jailbreaking, eliciting hallucinations, and privacy attacks. Our gradient-free targeted attack can jailbreak aligned LMs with high attack success rates within one minute. For instance, BEAST can jailbreak Vicuna-7B-v1.5 under one minute with a success rate of 89% when compared to a gradient-based baseline that takes over an hour to achieve 70% success rate using a single Nvidia RTX A6000 48GB GPU. Additionally, we discover a unique outcome wherein our untargeted attack induces hallucinations in LM chatbots. Through human evaluations, we find that our untargeted attack causes Vicuna-7B-v1.5 to produce ~15% more incorrect outputs when compared to LM outputs in the absence of our attack. We also learn that 22% of the time, BEAST causes Vicuna to generate outputs that are not relevant to the original prompt. Further, we use BEAST to generate adversarial prompts in a few seconds that can boost the performance of existing membership inference attacks for LMs. We believe that our fast attack, BEAST, has the potential to accelerate research in LM security and privacy.},
       eprint={2402.15570},
@@ -67,6 +90,7 @@
 @misc{saha2023drsmderandomizedsmoothingmalware,
       title={DRSM: De-Randomized Smoothing on Malware Classifier Providing Certified Robustness},
       author={Shoumik Saha and Wenxiao Wang and Yigitcan Kaya and Soheil Feizi and Tudor Dumitras},
+      journal={ICLR (International Conference on Learning Representations)},
       year={2023},
       abstract={Machine Learning (ML) models have been utilized for malware detection for over two decades. Consequently, this ignited an ongoing arms race between malware authors and antivirus systems, compelling researchers to propose defenses for malware-detection models against evasion attacks. However, most if not all existing defenses against evasion attacks suffer from sizable performance degradation and/or can defend against only specific attacks, which makes them less practical in real-world settings. In this work, we develop a certified defense, DRSM (De-Randomized Smoothed MalConv), by redesigning the de-randomized smoothing technique for the domain of malware detection. Specifically, we propose a window ablation scheme to provably limit the impact of adversarial bytes while maximally preserving local structures of the executables. After showing how DRSM is theoretically robust against attacks with contiguous adversarial bytes, we verify its performance and certified robustness experimentally, where we observe only marginal accuracy drops as the cost of robustness. To our knowledge, we are the first to offer certified robustness in the realm of static detection of malware executables. More surprisingly, through evaluating DRSM against 9 empirical attacks of different types, we observe that the proposed defense is empirically robust to some extent against a diverse set of attacks, some of which even fall out of the scope of its original threat model. In addition, we collected 15.5K recent benign raw executables from diverse sources, which will be made public as a dataset called PACE (Publicly Accessible Collection(s) of Executables) to alleviate the scarcity of publicly available benign datasets for studying malware detection and provide future research with more representative data of the time.},
       eprint={2303.13372},

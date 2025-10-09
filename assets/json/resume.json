@@ -53,9 +53,9 @@
       "position": "Applied Scientist Intern",
       "url": "",
       "startDate": "2025-05",
-      "endDate": "",
+      "endDate": "2025-08",
       "summary": "Working on security of Code Agents",
-      "highlights": ["Manager: Zijian Wang"]
+      "highlights": ["Managers: Varun Kumar, Zijian Wang"]
     },
     {
       "name": "University of Maryland - College Park",
@@ -73,7 +73,7 @@
       "startDate": "2024-06",
       "endDate": "2024-08",
       "summary": "Worked on reliable Code LLM",
-      "highlights": ["Managers: Zijian Wang, Varun Kumar"]
+      "highlights": ["Manager: Zijian Wang"]
     },
     {
       "name": "Maryland Cybersecurity Center",
@@ -164,8 +164,15 @@
       "summary": "We proposed a novel approach in adversarial attack on LLMs, namely BEAST, that can jailbreak, cause hallucination, and membership inference attacks. Our approach can find jailbreaking prompts within one minute under a resource-constrained setting."
     },
     {
+      "name": "ProcVQA: Benchmarking the Effects of Structural Properties in Mined Process Visualizations on Vision-Language Model Performance",
+      "publisher": "EMNLP",
+      "releaseDate": "2025",
+      "url": "https://mail.hdi.cs.umd.edu/papers/ProcVQA_EMNLP25.pdf",
+      "summary": "We introduce ProcVQA, an expert-validated benchmark of procedurally mined process visualizations (linear, tree, graph) with varying structural density, and evaluate 21 VLMs to reveal sharp multi-hop reasoning drops, density-driven extraction hallucinations/errors, and a disconnect between extraction accuracy and reasoning."
+    },
+    {
       "name": "Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text",
-      "publisher": "arXiv",
+      "publisher": "NEURIPS",
       "releaseDate": "2025",
       "url": "https://arxiv.org/pdf/2506.07001?",
       "summary": "We introduced Adversarial Paraphrasing, a training-free attack framework that universally humanizes any AI-generated text to evade detection more effectively. Our approach leverages an off-the-shelf instruction-following LLM to paraphrase AI-generated content under the guidance of an AI text detector, producing adversarial examples that are specifically optimized to bypass detection."
@@ -176,6 +183,13 @@
       "releaseDate": "2025",
       "url": "https://arxiv.org/abs/2502.15666",
       "summary": "We evaluated twelve state-of-the-art AI-text detectors using our created APT-Eval dataset of 15K human-written texts refined to varying degrees with AI tools. We found that detectors often classify even minimally polished text as AI-generated and struggle to distinguish levels of AI involvement."
+    },
+    {
+      "name": "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks",
+      "publisher": "arXiv",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/pdf/2510.01359",
+      "summary": "We introduce JAWS-BENCH, a three-regime benchmark (JAWS-0/1/M) with an executable-aware Judge Framework for assessing code-agent jailbreaks, and evaluate seven LLMs to show ASR rising from 61% (prompt-only) to ~71% (single-file) and ~75% (multi-file, 32% instantly deployable), with agent wrapping increasing vulnerability by 1.6×—motivating execution-aware, code-contextual defenses that preserve refusals."
     }
   ],
   "awards": [
