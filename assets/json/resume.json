@@ -192,11 +192,11 @@
       "summary": "We introduce JAWS-BENCH, a three-regime benchmark (JAWS-0/1/M) with an executable-aware Judge Framework for assessing code-agent jailbreaks, and evaluate seven LLMs to show ASR rising from 61% (prompt-only) to ~71% (single-file) and ~75% (multi-file, 32% instantly deployable), with agent wrapping increasing vulnerability by 1.6×—motivating execution-aware, code-contextual defenses that preserve refusals."
     },
     {
-      "name": "Under the Hood of SKILL.md: Semantic Supply-chain Attacks on AI Agent Skill Registry\n",
+      "name": "Under the Hood of SKILL.md: Semantic Supply-chain Attacks on AI Agent Skill Registry",
       "publisher": "arXiv",
       "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2605.11418",
-      "summary": "We investigate semantic supply-chain risks via SKILL.md-only attacks across three lifecycle stages (Discovery, Selection, Governance), showing that adversarial triggers achieve up to 86% win rates in Discovery, 77.6% selection rates for malicious variants, and 36.5%–100% evasion of governance filters—demonstrating that SKILL.md functions as operational text rather than passive documentation in shaping which capabilities agents find, trust, and execute."
+      "summary": "We investigate semantic supply-chain risks via SKILL. md-only attacks across three lifecycle stages (Discovery, Selection, Governance), showing that adversarial triggers achieve up to 86% win rates in Discovery, 77.6% selection rates for malicious variants, and 36.5%–100% evasion of governance filters—demonstrating that SKILL. md functions as operational text rather than passive documentation in shaping which capabilities agents find, trust, and execute."
     }
   ],
   "awards": [
