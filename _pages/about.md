@@ -26,7 +26,7 @@ particularly in malware detection. Over time, my interests have evolved toward
 **security and reliability of AI**. 
 These days, I’m dedicated to enhancing the robustness and reliability of generative AI, and AI Agents.
 
-If you check out my [CV](../assets/pdf/Shoumik_CV_2026.pdf), you'll see a consistent theme: 
+If you check out my [CV](../assets/pdf/Shoumik_CV_2026.pdf), you'll notice a consistent theme: 
 I enjoy exploring challenges from both sides of the coin -- attack and defense, red team and blue team, 
 or however you’d like to frame it. Sounds interesting? 
 Feel free to reach out to discuss my research or potential collaborations!
