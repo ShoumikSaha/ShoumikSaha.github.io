@@ -186,8 +186,8 @@
     },
     {
       "name": "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks",
-      "publisher": "arXiv",
-      "releaseDate": "2025",
+      "publisher": "TACL",
+      "releaseDate": "2026",
       "url": "https://arxiv.org/pdf/2510.01359",
       "summary": "We introduce JAWS-BENCH, a three-regime benchmark (JAWS-0/1/M) with an executable-aware Judge Framework for assessing code-agent jailbreaks, and evaluate seven LLMs to show ASR rising from 61% (prompt-only) to ~71% (single-file) and ~75% (multi-file, 32% instantly deployable), with agent wrapping increasing vulnerability by 1.6×—motivating execution-aware, code-contextual defenses that preserve refusals."
     },
