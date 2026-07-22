@@ -38,6 +38,9 @@ ninja.data = [{
           section: "News",},{id: "news-joined-amazon-aws-as-an-applied-scientist-intern",
           title: 'Joined Amazon AWS as an Applied Scientist Intern',
           description: "",
+          section: "News",},{id: "news-jaws-bench-got-accepted-into-tacl",
+          title: 'JAWS-Bench got accepted into TACL!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
