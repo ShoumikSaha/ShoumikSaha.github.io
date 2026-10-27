@@ -9,8 +9,8 @@ profile:
   image: Shoumik_profile_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>CS Ph.D. Candidate</p>
-    <p>UMD College Park</p>
+    <p>Applied Scientist</p>
+    <p>Amazon AWS</p>
     <p>smksaha@umd.edu</p>
 
 news: true # includes a list of news items
@@ -18,9 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 4th year Computer Science Ph.D. candidate at the [University of Maryland - College Park](https://umd.edu/), 
+I have recently joined Amazon AWS Agentic AI team as an Applied Scientist (L5) after graduating with Ph.D. in Computer Science from the [University of Maryland - College Park](https://umd.edu/), 
 where I am fortunate to be advised by [Prof. Soheil Feizi](https://www.cs.umd.edu/~sfeizi/).
-This and last summer, I have worked as an Applied Scientist Intern at Amazon AWS.
 My research journey began with a focus on **AI for security**, 
 particularly in malware detection. Over time, my interests have evolved toward 
 **security and reliability of AI**. 
